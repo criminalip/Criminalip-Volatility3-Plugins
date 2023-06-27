@@ -105,7 +105,7 @@ $ Criminalip.criminalipdomain --malD --HardWhite
 ### 4.Project launch screen
 | criminalipdomian | criminalipdomain --malIP | criminalipdomain --malIP --HardWhite
 |--|--|--
-|![cipdomain](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/f2111df5-44a1-4663-a6bf-4c2170cae28b)|![cipdomian_malD](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/072e837e-20f7-4839-a89e-e9beca28bfb1)|![cipdomain_malD_hw](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/c1c9059c-dca1-436a-ad42-3520f0c1f19a).
+|![cipdomain](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/58b59d91-2da1-4600-8947-d88284e9b1f2)|![cipdomian_malD](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/072e837e-20f7-4839-a89e-e9beca28bfb1)|![cipdomain_malD_hw](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/c1c9059c-dca1-436a-ad42-3520f0c1f19a).
 
 
 # **License**
