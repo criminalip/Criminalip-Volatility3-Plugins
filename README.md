@@ -78,7 +78,9 @@ $ Cariminalip.criminalipip --malIP
 ​
 | criminalipip | criminalipip --malIP 
 |--|--
-|![cipip](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/f2111df5-44a1-4663-a6bf-4c2170cae28b)|![cipip_malIP](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/8b0e8e7a-1c7b-4ecf-b425-22e2aaedf7b).
+|![cipip](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/f2111df5-44a1-4663-a6bf-4c2170cae28b)|![cipip_malIP](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/989fc6e9-37b3-4a41-b19b-5668dc030e3d)
+
+
 
 
 
