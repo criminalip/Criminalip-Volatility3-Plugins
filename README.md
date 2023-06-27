@@ -67,7 +67,7 @@ This zip file will be regularly uploaded so that you will be able to use it as n
 | Timeline | Pid | Owner  | proto |LocalAddr|ForeignAddr|inbound/outbound|tags|representative|ids|abuse
 |--|--|--|--|--|--|--|--|--|--|--
 | Connection time information |Pid value  |Process name|Protocol type|Src IP and port information|Dst IP and  port information|Score of the dst IP in Criminal IP|Information regarding issues associated with the dst IP | Representative domain information of the IP |Information corresponding to snort rules|Reported incidents and the number of malicious codes associated with the IP
-​
+
 ### 3.Commands available in the criminalip plugin
 ```c
 $ Criminalip.criminalipip
@@ -78,10 +78,9 @@ $ Cariminalip.criminalipip --malIP
 ​
 | criminalipip | criminalipip --malIP 
 |--|--
-|https://github.com/criminalip/Criminalip-Volatility3-Plugins/blob/main/criminalip_volatility_image/cipip.png|https://github.com/criminalip/Criminalip-Volatility3-Plugins/blob/main/criminalip_volatility_image/cipip_malIP.png
-​
-​
-​
+|![cipip](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/f2111df5-44a1-4663-a6bf-4c2170cae28b)|![cipip_malIP](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/f2111df5-44a1-4663-a6bf-4c2170cae28b)​
+
+
 ## criminalipdomain plugin
 ### 1.criminalipdomain plugin explain
 - It is a plugin that returns only URLs where malicious activity exists, as a result value verified by criminalip.
@@ -91,8 +90,8 @@ $ Cariminalip.criminalipip --malIP
 ​
 | Timeline | Pid | Process  | URL |TotalScore|Phishing Score|Domain type|DGA score|Real IP|Domain created|abuse|Fake https URL| Suspicious URL
 |--|--|--|--|--|--|--|--|--|--|--|--|--
-| Connection time information |Pid value  |Process name|URL information extracted from the process|Final score while searching for URL in Domain Search |The probability of the URL being a phishing|Domain category information set by Google  |Score for AI determination of whether a domain was created with a random naming convention  |Number of real IPs |Domain creation date |Number of IPs connected to  your domain that have been reported as malicious |False https URL status|URLs that may be suspected of phishing: longer than 30 characters in length / use punycode / presence of the @ string
-​
+| Connection time information |Pid value  |Process name|URL information extracted from the process|Final score while searching for URL in Domain Search |The probability of the URL being a phishing|Domain category information set by Google  |Score for AI determination of whether a domain was created with a random naming convention  |Number of real IPs |Domain creation date |Number of IPs connected to  your domain that have been reported as malicious |False https URL status|URLs that may be suspected of phishing: longer than 30 characters in length / use punycode / presence of the @ string​
+
 ### 3.Commands available in the criminalipdomain plugin
 ```c
 $ Criminalip.criminalipdomain
@@ -102,10 +101,9 @@ $ Criminalip.criminalipdomain --malD --HardWhite
 ```
 ### 4.Project launch screen
 | criminalipdomian | criminalipdomain --malIP | criminalipdomain --malIP --HardWhite
-|--|-- |--
-|https://github.com/criminalip/Criminalip-Volatility3-Plugins/blob/main/criminalip_volatility_image/cipdomain.png|https://github.com/criminalip/Criminalip-Volatility3-Plugins/blob/main/criminalip_volatility_image/cipdomain_malD.png|https://github.com/criminalip/Criminalip-Volatility3-Plugins/blob/main/criminalip_volatility_image/cipdomain_malD_HW.png
-​
-​
+|--|--|--
+|![cipdomain](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/f2111df5-44a1-4663-a6bf-4c2170cae28b)|![cipdomian_malD](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/f2111df5-44a1-4663-a6bf-4c2170cae28b)|![cipdomain_malD_hw](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/f2111df5-44a1-4663-a6bf-4c2170cae28b)​
+
 # **License**
 ​
 Volatility Software License  
