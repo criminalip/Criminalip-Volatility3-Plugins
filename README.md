@@ -1,4 +1,4 @@
-# **Introduction: Criminalip-Volatility3 plugins**
+# **Introduction: Criminalip-Volatility3 Plugins**
 ​
 - These plugins integrate Volatility with the Criminal IP CTI search engine, enabling users to execute Asset Search and Domain Search queries to identify potentially malicious IPs and domains.
 - In the process of analyzing dump files, it is possible to identify the risk associated with IPs and domains contained within, enabling more advanced forms of memory forensics.
