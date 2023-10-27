@@ -704,7 +704,7 @@ class NetworkConnections(interfaces.plugins.PluginInterface, timeliner.TimeLiner
         show_corrupt_results = self.config.get("include-corrupt", None)
         malip = self.config.get('malIP', None)
         
-        conn = sqlite3.connect('C:\\$home\volatility3\\db_file.db')
+        conn = sqlite3.connect('C:\\$home\\<USER_NAME>\\volatility3\\db_file.db')
         conn.isolation_level = None
         cursor = conn.cursor()
         # Create a TreeGrid with the specified column headers and types

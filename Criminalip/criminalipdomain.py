@@ -450,7 +450,7 @@ class CIPCheckDomain(interfaces.plugins.PluginInterface):
         malD = self.config.get('malD',None)
         HW = self.config.get('HardWhite',None)
 
-        conn = sqlite3.connect('C:\\$home\volatility3\\db_file.db')
+        conn = sqlite3.connect('C:\\$home\\<USER_NAME>\\volatility3\\db_file.db')
         conn.isolation_level = None
         cursor = conn.cursor()
         
