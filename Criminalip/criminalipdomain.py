@@ -12,8 +12,8 @@ from volatility3.framework import renderers
 from volatility3.framework.configuration import requirements
 from volatility3.plugins.windows import pslist
 from volatility3.plugins import timeliner
-from volatility3.framework.plugins.Criminalip.config import WhiteList,HardWhiteList 
-from volatility3.framework.plugins.Criminalip.db_insert_modul import table_insert_url
+from volatility3.plugins.Criminalip.config import WhiteList,HardWhiteList 
+from volatility3.plugins.Criminalip.db_insert_modul import table_insert_url
 
 API_KEY = '${CRIMINALIP_API_KEY}'
 
@@ -450,7 +450,7 @@ class CIPCheckDomain(interfaces.plugins.PluginInterface):
         malD = self.config.get('malD',None)
         HW = self.config.get('HardWhite',None)
 
-        conn = sqlite3.connect('C:\\$home\\<USER_NAME>\\volatility3\\db_file.db')
+        conn = sqlite3.connect('C:\\$home\volatility3\\db_file.db')
         conn.isolation_level = None
         cursor = conn.cursor()
         
