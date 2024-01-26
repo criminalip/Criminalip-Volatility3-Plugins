@@ -107,6 +107,9 @@ $ Criminalip.criminalipdomain --malD --HardWhite
 |--|--|--
 |![cipdomain](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/58b59d91-2da1-4600-8947-d88284e9b1f2)|![cipdomian_malD](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/072e837e-20f7-4839-a89e-e9beca28bfb1)|![cipdomain_malD_hw](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/c1c9059c-dca1-436a-ad42-3520f0c1f19a).
 
+[![Video Label](http://img.youtube.com/vi/2kvKG8hahyA/0.jpg)](https://youtu.be/2kvKG8hahyA)
+
+[![Video Label](http://img.youtube.com/vi/W9Pcf93EMfw/0.jpg)](https://youtu.be/W9Pcf93EMfw)
 
 # **License**
 ​
