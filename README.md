@@ -4,6 +4,7 @@
 - In the process of analyzing dump files, it is possible to identify the risk associated with IPs and domains contained within, enabling more advanced forms of memory forensics.
 - The plugin is written based on Volatility 3 and may not be compatible with versions below Volatility 3.
 - After downloading the file, you can place it in the volatility3/volatility3/foy/plugins directory to use it.
+- At the end of this README, you can find YouTube tutorial videos guiding you on how to install the Criminal IP Volatility plugin and conduct memory forensics with it.​
 ​
 # **Prerequisites**
 -   To access IP and domain data, you will need a Criminal IP API key. You can sign up for free at [https://www.criminalip.io/](https://www.criminalip.io/) and obtain your API key from the "My Information" section on the Criminal IP website.
@@ -107,8 +108,11 @@ $ Criminalip.criminalipdomain --malD --HardWhite
 |--|--|--
 |![cipdomain](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/58b59d91-2da1-4600-8947-d88284e9b1f2)|![cipdomian_malD](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/072e837e-20f7-4839-a89e-e9beca28bfb1)|![cipdomain_malD_hw](https://github.com/criminalip/Criminalip-Volatility3-Plugins/assets/114474963/c1c9059c-dca1-436a-ad42-3520f0c1f19a).
 
+# Tutorial videos
+## How to install the Criminal IP Volatility plugin
 [![Video Label](http://img.youtube.com/vi/2kvKG8hahyA/0.jpg)](https://youtu.be/2kvKG8hahyA)
 
+## How to conduct memory forensics with the Criminal IP Volatility plugin​
 [![Video Label](http://img.youtube.com/vi/W9Pcf93EMfw/0.jpg)](https://youtu.be/W9Pcf93EMfw)
 
 # **License**
